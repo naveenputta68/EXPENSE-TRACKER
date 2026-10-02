@@ -67,7 +67,7 @@ def summarize_expenses(expense_file_path,budget):
     total_spent=sum([expense.amount for expense in expenses])
     print(f'💸Total spent:₹{total_spent:.2f}this month')
 
-    remaining_budget=budget-total_spent
+    remaining_budget=budget-total_spent``
     print(f'💰Remaining budget:₹{remaining_budget:.2f}')
 
     today=date.today()
